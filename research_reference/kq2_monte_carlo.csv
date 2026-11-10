@@ -1,0 +1,6 @@
+nguoi_ban,LN_ky_vong_trieu,P_LN_am_pct,VaR5_trieu,CVaR5_trieu,CVaR5_tren_ky_vong_pct,STRESS_x2_LN_ky_vong_trieu,STRESS_x2_P_LN_am_pct,STRESS_x2_CVaR5_trieu,g_chon_truoc_pct,g_cham_tran,uplift_ngoai_mau_do_nhay_trieu
+S1 Thời trang (gần ngưỡng 1 tỷ),145.1,0.0,115.7,104.9,72.3,80.2,5.3,-30.6,10,True,37.3
+S2 Mỹ phẩm,94.2,0.0,72.1,64.0,67.9,49.2,8.4,-30.5,10,True,19.3
+S3 Thực phẩm khô,32.1,0.4,15.9,9.5,29.6,3.7,38.1,-55.5,10,True,21.5
+S4 Phụ kiện điện tử,67.1,0.6,27.0,13.7,20.4,-16.8,56.8,-157.2,10,True,88.2
+S5 Thời trang biên mỏng (TikTok),48.1,0.7,18.7,8.5,17.7,-3.1,47.2,-108.5,10,True,30.3

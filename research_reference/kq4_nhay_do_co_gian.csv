@@ -1,0 +1,31 @@
+do_co_gian,nguoi_ban,g_toi_uu_luoi_rong_pct,cham_tran_30pct,uplift_luoi_rong_trieu,g_toi_uu_tran10_pct,uplift_tran10_trieu
+-3.0,S1 Thời trang (gần ngưỡng 1 tỷ),13,False,9.4,10,9.1
+-3.0,S2 Mỹ phẩm,7,False,1.7,7,1.7
+-3.0,S3 Thực phẩm khô,30,True,19.0,10,12.6
+-3.0,S4 Phụ kiện điện tử,30,True,104.7,10,62.5
+-3.0,S5 Thời trang biên mỏng (TikTok),28,False,24.6,10,16.8
+-4.0,S1 Thời trang (gần ngưỡng 1 tỷ),0,False,0.0,0,0.0
+-4.0,S2 Mỹ phẩm,0,False,0.0,0,0.0
+-4.0,S3 Thực phẩm khô,15,False,8.4,10,7.7
+-4.0,S4 Phụ kiện điện tử,22,False,61.7,10,48.2
+-4.0,S5 Thời trang biên mỏng (TikTok),14,False,9.9,10,9.4
+-5.0,S1 Thời trang (gần ngưỡng 1 tỷ),0,False,0.0,0,0.0
+-5.0,S2 Mỹ phẩm,0,False,0.0,0,0.0
+-5.0,S3 Thực phẩm khô,8,False,3.3,8,3.3
+-5.0,S4 Phụ kiện điện tử,15,False,37.7,10,35.1
+-5.0,S5 Thời trang biên mỏng (TikTok),7,False,3.3,7,3.3
+-6.0,S1 Thời trang (gần ngưỡng 1 tỷ),0,False,0.0,0,0.0
+-6.0,S2 Mỹ phẩm,0,False,0.0,0,0.0
+-6.0,S3 Thực phẩm khô,4,False,0.9,4,0.9
+-6.0,S4 Phụ kiện điện tử,10,False,23.3,10,23.3
+-6.0,S5 Thời trang biên mỏng (TikTok),2,False,0.5,2,0.5
+-7.0,S1 Thời trang (gần ngưỡng 1 tỷ),0,False,0.0,0,0.0
+-7.0,S2 Mỹ phẩm,0,False,0.0,0,0.0
+-7.0,S3 Thực phẩm khô,1,False,0.1,1,0.1
+-7.0,S4 Phụ kiện điện tử,7,False,14.1,7,14.1
+-7.0,S5 Thời trang biên mỏng (TikTok),0,False,0.0,0,0.0
+-8.0,S1 Thời trang (gần ngưỡng 1 tỷ),0,False,0.0,0,0.0
+-8.0,S2 Mỹ phẩm,0,False,0.0,0,0.0
+-8.0,S3 Thực phẩm khô,0,False,0.0,0,0.0
+-8.0,S4 Phụ kiện điện tử,5,False,8.0,5,8.0
+-8.0,S5 Thời trang biên mỏng (TikTok),0,False,0.0,0,0.0

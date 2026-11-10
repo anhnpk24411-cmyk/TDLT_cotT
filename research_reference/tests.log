@@ -1,0 +1,14 @@
+OK test_mot_don_tinh_tay
+OK test_hoan_hang_tinh_tay
+OK test_nguong_toan_kenh_la_dong_nhat_thuc_voi_bien_LN
+OK test_nguong_theo_kenh_lon_hon_toan_kenh
+OK test_thue_diem_gay
+OK test_dung_bang_nguong_la_mien_va_vuot_1_dong_la_chiu
+OK test_khau_tru_tam_hoan_khi_duoi_nguong
+OK test_khau_tru_lon_hon_nghia_vu_thi_duoc_hoan
+OK test_thue_suat_thu_nhap_theo_bac
+OK test_cong_gop_da_kenh
+OK test_tai_lap_theo_seed
+OK test_stress_nang_hon_binh_thuong
+OK test_doanh_thu_dung_1_ty_khong_bi_tinh_thue_do_sai_so
+13 test pass

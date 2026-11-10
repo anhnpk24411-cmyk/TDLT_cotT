@@ -1,0 +1,97 @@
+[
+  {
+    "case_id": "CASE1_tiktok_fashion_delivered",
+    "description": "Đơn hàng thời trang TikTok Shop giao thành công, áp dụng biểu phí 05/2026",
+    "inputs": {
+      "channel": "TikTok Shop",
+      "gross_revenue": 250000,
+      "quantity": 1,
+      "cost_of_goods": 130000,
+      "commission_rate": 0.14,
+      "payment_rate": 0.06,
+      "service_rate": 0.0,
+      "fixed_fee_per_order": 3000,
+      "ads_cost_allocated": 22500,
+      "shipping_cost_seller": 0,
+      "other_cost": 3000,
+      "returned": false
+    },
+    "expected": {
+      "net_revenue": 250000,
+      "cogs": 130000,
+      "commission_fee": 35000.0,
+      "payment_fee": 15000.0,
+      "fixed_fee": 3000,
+      "total_platform_fees": 53000.0,
+      "net_profit_before_tax": 41500.0,
+      "profit_margin": 0.166
+    }
+  },
+  {
+    "case_id": "CASE2_returned_order",
+    "description": "Đơn hàng bị hoàn trả: doanh thu thực = 0, giá vốn = 0, phí sàn = 0, chỉ chịu phí ship và đóng gói",
+    "inputs": {
+      "channel": "Shopee",
+      "gross_revenue": 180000,
+      "quantity": 1,
+      "cost_of_goods": 80000,
+      "shipping_cost_seller": 20000,
+      "other_cost": 3000,
+      "returned": true
+    },
+    "expected": {
+      "net_revenue": 0,
+      "cogs": 0,
+      "total_platform_fees": 0,
+      "net_profit_before_tax": -23000
+    }
+  },
+  {
+    "case_id": "CASE3_tax_above_threshold",
+    "description": "Thuế trên ngưỡng 1 tỷ: VAT 1% + TNCN 0,5%, khấu trừ tạm sàn 1,5%, chi phí tuân thủ 12 triệu",
+    "inputs": {
+      "aggregate_revenue": 1200000000,
+      "threshold": 1000000000,
+      "pre_tax_profit": 180000000,
+      "withheld": 18000000,
+      "compliance_cost": 12000000
+    },
+    "expected": {
+      "is_above_threshold": true,
+      "vat_amount": 12000000.0,
+      "pit_amount": 6000000.0,
+      "total_tax_liability": 18000000.0,
+      "settlement_amount": 0.0,
+      "after_tax_profit": 150000000.0
+    }
+  },
+  {
+    "case_id": "CASE4_tax_below_threshold_near_cliff",
+    "description": "Thuế dưới ngưỡng (920 triệu, tỷ lệ 92% >= 90%): Miễn thuế, kích hoạt cảnh báo tiệm cận vách đá",
+    "inputs": {
+      "aggregate_revenue": 920000000,
+      "threshold": 1000000000,
+      "pre_tax_profit": 110000000
+    },
+    "expected": {
+      "is_above_threshold": false,
+      "total_tax_liability": 0,
+      "ratio_to_threshold": 0.92,
+      "close_to_threshold_warning": true,
+      "after_tax_profit": 110000000
+    }
+  },
+  {
+    "case_id": "CASE5_tolerance_bisection",
+    "description": "Ngưỡng chịu đựng tăng phí toàn kênh bằng thuật toán chia đôi Bisection",
+    "inputs": {
+      "gross_revenue": 1000000,
+      "baseline_profit": 150000,
+      "current_commission": 0.1
+    },
+    "expected": {
+      "state": "SOLVED",
+      "tolerance_pp": 15.0
+    }
+  }
+]
